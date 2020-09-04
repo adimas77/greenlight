@@ -84,7 +84,7 @@ module Greenlight
     end
 
     # Specify the email address that all mail is sent from
-    config.smtp_sender = ENV['SMTP_SENDER'] || "notifications@example.com"
+    config.smtp_sender = ENV['SMTP_SENDER'] || "info@pintro.id"
 
     # Determine if GreenLight should enable email verification
     config.enable_email_verification = (ENV['ALLOW_MAIL_NOTIFICATIONS'] == "true")

@@ -2,7 +2,7 @@
 
 STATUS="Status: Downloaded newer image for adimpp7/greenlight:v2"
 
-new_status=$(sudo docker pull bigbluebutton/greenlight:v2 | grep Status:)
+new_status=$(sudo docker pull adimpp7/greenlight:v2 | grep Status:)
 
 echo $new_status
 

@@ -50,6 +50,7 @@ a {
 .btn-outline-primary {
   border-color: $primary-color !important;
   color: $primary-color !important;
+  border-radius: 17px;
 
   &:hover {
     background: $primary-color !important;

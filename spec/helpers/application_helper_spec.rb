@@ -21,10 +21,10 @@ require "rails_helper"
 describe ApplicationHelper do
   describe "#getter functions" do
     it "returns the correct omniauth login url" do
-      allow(Rails.configuration).to receive(:relative_url_root).and_return("/b")
+      allow(Rails.configuration).to receive(:relative_url_root).and_return("/home")
       provider = Faker::Company.name
 
-      expect(helper.omniauth_login_url(provider)).to eql("/b/auth/#{provider}")
+      expect(helper.omniauth_login_url(provider)).to eql("/home/auth/#{provider}")
     end
   end
 

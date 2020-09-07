@@ -15,6 +15,7 @@ tmp
 /db/production
 /db/production-postgres
 public/assets
+public/home
 public/b
 coverage/
 .rvmrc

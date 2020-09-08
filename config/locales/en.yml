@@ -313,7 +313,7 @@ en:
   landing:
     about: "%{href} PintroClassRoom is a simple front-end for your open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
     welcome: Welcome to PintroClassRoom
-    video: Watch our tutorial on using Web Conference by BigBlueButton
+    video: Watch our tutorial on using Web Conference by PintroLite
     upgrade: Show me how to upgrade to 2.0!
     version: We've released a new version of Greenlight, but your database isn't compatible.
   language_default: Default (browser language)
